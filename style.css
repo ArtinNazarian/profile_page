@@ -1,0 +1,58 @@
+body {
+  /*set font type, font color and background color*/
+  background-color: #061120;
+  font-family: "Consolas", sans-serif;
+  color: rgba(231, 41, 130, 0.664);
+}
+
+h1 {
+  /*set h1 margin and font size*/
+  margin: 10px;
+  font-size: 50px;
+}
+
+h4 {
+  /*set h4 margin, font size and add padding at the bottom*/
+  margin: 10px;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+h1,
+h4 {
+  /* set the width for h1 and h4 to 510 px*/
+  width: 510px;
+}
+
+.intro,
+.about-me,
+.contact {
+  /* set width and add borders to the 3 boxes below the image. Set font color*/
+  width: 520px;
+  border: 3px rgb(84, 19, 97) solid;
+  padding: 0 10px;
+  margin: 5px 5px 5px 0px;
+}
+
+img {
+  margin: auto;
+  height: 350px;
+  width: 545px;
+}
+
+header,
+div,
+footer {
+  width: 500px;
+  margin: auto;
+}
+
+a {
+  /*link are in white color*/
+  color: rgba(255, 255, 255, 0.575);
+}
+
+a:hover {
+  /*links change color to blue when hovered over */
+  color: rgb(26, 112, 224);
+}
